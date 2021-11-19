@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* banner start */
+header{
+    background-image: url('./img/Photo--.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    width: 100%;    
+}
+.logo img{
+    height: 50px;
+    width: 60;
+    padding: 20px;
+}
+
+.logo h2{
+    padding: 30px 0px 0px 0px ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, li{
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.banner_content h2{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+.banner_content p{
+    padding-top: 10px;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 18px;
+}
+.banner_content button{
+    text-align: center;
+    background-color: orangered;
+    margin: 40px 0px 0px 600px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    color :white;
+}
+
+.images-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images-grid img{
+    height: 300px;
+    width: 350px;
+    padding: 10px 5px;
+}
+/* banner end */
+
+/* Destination section start  */
+.destination{
+    padding: 30px 0px 30px 0;
+}
+.destination h2{
+    text-align: center;
+    color: #606F81;
+}
+.search input{
+    border: none;
+    width: 500px;
+    background-color: honeydew;
+    padding: 15px;
+    outline: none;
+}
+
+.search{
+    margin : 20px 0px 10px 350px;
+    background-color: honeydew;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.search input::placeholder{
+    color: #606F81;
+    /* text-align: center; */
+    font-size: 14px;
+}
+
+.search i{
+    color: coral;
+}
+
+.cards-1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.row p,h4{
+    text-align: center;
+    margin-top: 15px;
+}
