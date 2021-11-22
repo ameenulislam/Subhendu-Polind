@@ -110,13 +110,15 @@ ul li a{
 
 .search input::placeholder{
     color: #606F81;
-    /* text-align: center; */
     font-size: 14px;
 }
 
 .search i{
     color: coral;
 }
+/* end of destination */
+
+/* Cards section  */
 
 .cards-1{
     display: flex;
@@ -128,4 +130,60 @@ ul li a{
 .row p,h4{
     text-align: center;
     margin-top: 15px;
+}
+
+/* End Of cards  */
+
+/* explore section */
+.explore{
+    margin-top: 15px;
+    background-color: aliceblue;
+    padding: 30px 0;
+}
+
+.explore h3{
+    text-align: center;
+    color: gray;
+    font-size: 24px;
+}
+.content-1{
+    width: 50%;
+    padding: 140px 0 0 200px;
+}
+
+.content-1 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFC74A;
+    font-size: 30px;
+}
+
+.content-1 p{
+    font-family: 'Montserrat', sans-serif;
+    color: #606F81;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 30px 0px 0px 0px; 
+}
+
+.content-1 button{
+    margin: 40px 0px 0px 0px;
+    padding: 10px 30px;
+    background-color: #FFC74A;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #B98000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content-container{
+    display: flex;
+}
+
+.explore img{
+    width: 50%;
+    padding: 90px 90px 0 70px;
 }
